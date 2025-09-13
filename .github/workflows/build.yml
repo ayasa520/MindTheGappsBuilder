@@ -90,4 +90,4 @@ jobs:
           tag_name: ${{ env.date }}
           draft: false
           prerelease: false
-          files: vendor_gapps/out/${{ matrix.arch }}/${{ env.date }}/*.*
+          files: vendor_gapps/out/*.*
