@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         arch: ["arm", "arm64", "x86_64"]
-        androidv: ["14.0.0", "15.0.0"]
+        androidv: ["13.0.0" ,"14.0.0", "15.0.0"]
     name: Build ${{ matrix.androidv }}-${{ matrix.arch }}
     runs-on: ubuntu-24.04
     steps:
